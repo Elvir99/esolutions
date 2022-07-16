@@ -1,0 +1,227 @@
+*{
+    font-family: 'Poppins', sans-serif!important;
+  }
+  
+  body{
+    min-height:100vh;
+  }
+  
+ 
+  .header{
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%);
+    margin-top: -15px;
+    
+    .logo{
+        max-width:180px;
+        max-height:auto ;
+        margin-top:-10px;
+        // margin-left:-50px;
+    }
+   
+    .dropcontent{
+        display: none;
+        position: absolute;
+    }
+
+    .drop-btn{
+        &:hover .dropcontent{
+            display: block !important;
+            
+        }
+    }
+   .navbar-left{
+    margin-left:80px;
+   }
+   .navbar-right{
+    margin-right:40px;
+   }
+   .nav-wrapper{
+
+    .nav-content{
+        margin:60px 0 50px 0!important;
+        a{
+            line-height: 36px;
+        }
+    }
+    .nav-footer{
+        margin:150px 0 30px 75px!important;
+    }
+   }
+
+
+  }////header end//
+  
+  .line{
+    height:1px;
+    width:31px;
+    background-color:#000;
+    margin-top:12px;
+  }
+  .social{
+    img{
+        width:24px;
+        height:24px;
+    }
+  }
+  .image{
+    border-radius:0!important;
+  }
+///////////////// MIX CODE///////////
+.bg-color{
+    background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%);
+}
+
+@for $i from 0 through 50 {
+    .f-md-#{$i} {
+        font-size: #{$i}px !important;
+    }
+}
+
+@media (max-width: 420px) {
+
+    @for $i from 0 through 50 {
+        .f-#{$i} {
+            font-size: #{$i}px !important;
+        }
+    }
+    .main-page{
+        padding:0 30px 0 30px!important;
+    }
+    
+    // .logo{
+    //     max-width:100px!important;
+    //     max-height:auto;
+    //     margin-top:none!important;
+    // }
+    .tel-link{
+        margin-top:5px;
+        i{
+            padding: 0 !important;
+        }
+    }
+    .link-hover{
+        padding: 0 !important;
+    }
+    .line{
+        height:1px;
+        width:15px;
+        background-color:#000;
+        margin:7px 0 0 5px!important;
+      }
+
+      .navbar-left{
+        margin-left:20px!important;
+       }
+       .navbar-right{
+        margin-right:65px!important;
+       }
+
+      .social{
+        // img{
+        //     width:14px;
+        //     height:14px;
+        //     margin:0 0 10px -2px;
+        // }
+        a{
+            padding: 0 !important;
+        }
+    }
+
+    .menu-content{
+        width: 250px !important;
+        padding: 0 !important;
+        left: 0 !important;
+        .menu-link{
+            padding:0 5px !important;
+            display: flex !important;
+        }
+    }
+    .box{
+        .first-image{
+         width:30%!important;
+         height: auto !important;
+        }
+     }
+     .footer{
+        padding:0 30px 0 30px!important;
+     }
+     .header-text{
+        width: 100% !important;
+    }
+}//media 420 end////////
+
+@media (max-width:1024px){
+    .menu-content{
+        left: -20px !important;
+    }
+}
+
+
+
+
+.link-hover{
+    text-decoration:none;
+    color:#000;
+    &:hover{
+        text-shadow:0.1px 0.1px 0.1px #000; 
+        color:#000;
+    }
+}
+.menu{
+    &:hover .menu-content{
+        display:block;
+    }
+    .menu-link{
+        text-decoration: none;
+        color:#fff;
+        display: flex !important;
+    }
+    .menu-content{
+        position:absolute;
+        display:none;
+        left:80px;
+        width:500px;
+    }
+}
+/////////////////////////////////////FOOTER
+
+.footer{
+    top:100%;
+    position:sticky;
+    
+}
+
+///////////////////////////////////////////////////HEADER ENDS//////////////////////
+
+////////////////////////MAIN PAGE//////////////////////
+
+.main-page{
+    
+    .see-all{
+
+        &:hover .right-icon{
+            transform:translate(8px,0);
+        }
+        .right-icon{
+            transition: all 0.5s;
+        }
+    }
+    .header-text{
+        width: 50% ;
+    }
+    .owl-carousel{
+        .item{
+            a{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+////////////////////////////////////////////////
