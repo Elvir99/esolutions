@@ -86,7 +86,7 @@ include('header.php');
 
         <div class="d-flex justify-content-center mt-1">
             <div class="see-all">
-                <a href="see-all.php" class="link-hover position-relative">Hamsına bax
+                <a href="see-all.php" class="link-hover position-relative">Hamısına bax
                     <img src="images/arrow-down.svg" class="position-absolute right-icon ps-2">
                 </a>
             </div>
