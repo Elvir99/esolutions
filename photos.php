@@ -13,9 +13,9 @@ include('header.php');
 
        <div class="images w-100">
 
-           <img src="images/img2.png" class="w-100 my-3">
-           <img src="images/img2.png" class="w-100 my-3">
-           <img src="images/img2.png" class="w-100 my-3">
+           <img src="images/img2.png" class="w-100 my-2">
+           <img src="images/img2.png" class="w-100 my-2">
+           <img src="images/img2.png" class="w-100 my-2">
 
        </div>
 

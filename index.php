@@ -18,8 +18,8 @@ include('header.php');
             <div class="box">
                 <img src="images/img1.svg" alt="">
                 <div class="box-content py-4">
-                    <h5 class="box-title fw-bold">Lorem Ipsum</h5>
-                    <p class="box-text">Some quick example text to build .</p>
+                    <h5 class="box-title fw-bold f-18 f-md-18">Lorem Ipsum</h5>
+                    <p class="box-text f-16 f-md-16">Some quick example text to build .</p>
                </div>
             </div>
             </a>
@@ -32,8 +32,8 @@ include('header.php');
             <div class="box">
                 <img src="images/img1.svg" alt="">
                 <div class="box-content py-4">
-                    <h5 class="box-title fw-bold">Lorem Ipsum</h5>
-                    <p class="box-text">Some quick example text to build .</p>
+                <h5 class="box-title fw-bold f-18 f-md-18">Lorem Ipsum</h5>
+                    <p class="box-text f-16 f-md-16">Some quick example text to build .</p>
                </div>
             </div>
             </a>
@@ -46,8 +46,8 @@ include('header.php');
             <div class="box">
                 <img src="images/img1.svg" alt="">
                 <div class="box-content py-4">
-                    <h5 class="box-title fw-bold">Lorem Ipsum</h5>
-                    <p class="box-text">Some quick example text to build .</p>
+                    <h5 class="box-title fw-bold f-18 f-md-18">Lorem Ipsum</h5>
+                    <p class="box-text f-16 f-md-16">Some quick example text to build .</p>
                </div>
             </div>
             </a>
@@ -60,8 +60,8 @@ include('header.php');
             <div class="box">
                 <img src="images/img1.svg" alt="">
                 <div class="box-content py-4">
-                    <h5 class="box-title fw-bold">Lorem Ipsum</h5>
-                    <p class="box-text">Some quick example text to build .</p>
+                    <h5 class="box-title fw-bold f-18 f-md-18">Lorem Ipsum</h5>
+                    <p class="box-text f-16 f-md-16">Some quick example text to build .</p>
                </div>
             </div>
             </a>
@@ -74,8 +74,8 @@ include('header.php');
             <div class="box">
                 <img src="images/img1.svg" alt="">
                 <div class="box-content py-4">
-                    <h5 class="box-title fw-bold">Lorem Ipsum</h5>
-                    <p class="box-text">Some quick example text to build .</p>
+                    <h5 class="box-title fw-bold f-18 f-md-18">Lorem Ipsum</h5>
+                    <p class="box-text f-16 f-md-16">Some quick example text to build .</p>
                </div>
             </div>
             </a>
@@ -84,47 +84,14 @@ include('header.php');
 
     </div><!--owl-carousel end-->
 
-        <div class="d-flex justify-content-center mt-4">
+        <div class="d-flex justify-content-center mt-1">
             <div class="see-all">
                 <a href="see-all.php" class="link-hover position-relative">Hamsına bax
-                    <img src="images/arrow-down.svg" class="position-absolute right-icon">
+                    <img src="images/arrow-down.svg" class="position-absolute right-icon ps-2">
                 </a>
             </div>
         </div>
 
-
-
-
-
- <!-- <div class="col-12 col-lg-6">
-            <div class="box-1 my-1 position-relative w-100">
-               <a href="#" class="position-absolute w-50"><img src="images/img2.png" class="first-image w-50"></a>
-               <div class="box-content">
-                <p class="f-12 f-md-18">Lorem ipsum dolor sit</p>
-                <span class="f-11">Sirket Adi</span>
-               </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-lg-3">
-            <div class="box my-1">
-            <a href="#" class="w-100 "><img src="images/img1.svg" class=" second-image"></a>
-            <div class="box-content">
-                <p class="f-12 f-md-18">Lorem ipsum dolor sit</p>
-                <span class="f-11">Sirket Adi</span>
-               </div>
-            </div>
-        </div>
-
-        <div class="col-12 col-lg-3">
-            <div class="box my-1 ">
-            <a href="#" class=" "><img src="images/img1.svg" class=" second-image"></a>
-            <div class="box-content">
-                <p class="f-12 f-md-18">Lorem ipsum dolor sit</p>
-                <span class="f-11">Sirket Adi</span>
-               </div>
-            </div>
-        </div> -->
 
 
     </div><!--row-end-->

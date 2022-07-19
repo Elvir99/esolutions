@@ -43,6 +43,10 @@ body {
 .bg-color {
   background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%); }
 
+.py-45 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important; }
+
 .f-md-0 {
   font-size: 0px !important; }
 
@@ -376,14 +380,6 @@ body {
   .social a {
     padding: 0 !important; }
 
-  .menu-content {
-    width: 250px !important;
-    padding: 0 !important;
-    left: 0 !important; }
-    .menu-content .menu-link {
-      padding: 0 5px !important;
-      display: flex !important; }
-
   .box .first-image {
     width: 30% !important;
     height: auto !important; }
@@ -413,11 +409,14 @@ body {
   position: absolute;
   display: none;
   left: 80px;
-  width: 500px; }
+  width: 580px; }
 
 .footer {
   top: 100%;
   position: sticky; }
+  .footer .owl-carousel-2 .item img {
+    width: 165px;
+    height: 50px; }
 
 .main-page .see-all:hover .right-icon {
   transform: translate(8px, 0); }

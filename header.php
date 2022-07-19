@@ -36,8 +36,8 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
 
 
 
-<nav class="navbar bg-transparent">
-    <div class="container py-5 header">
+<nav class="navbar bg-transparent pt-3">
+    <div class="container py-45 header">
 
     <div class="me-auto d-flex">
         <a class="link-hover f-22 f-md-18 ms-3" href="index.php"><img src="images/logo svg.svg" class="logo img-fluid"></a>
@@ -45,13 +45,13 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
         <div class="menu position-relative">
 
             <a class="link-hover f-md-18 navbar-left d-none d-md-block" style="cursor:pointer;">SHOWCASE</a>
-            <div class="menu-content bg-dark p-3">
+            <div class="menu-content bg-dark py-3">
                 <div class="d-flex justify-content-center">
-                <a href="#" class="menu-link f-10 f-md-18 px-1">WEB SAYT</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-2">BRANDING</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-2">REKLAM</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-2">SSM</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-2">KATEGORIYA</a>
+                <a href="#" class="menu-link f-10 f-md-18 pe-3">WEB SAYT</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-3">BRANDING</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-3">REKLAM</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-3">SSM</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-3">KATEGORIYA</a>
                 </div>
             </div>
 
@@ -68,14 +68,14 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
         <div class="drop-btn">
             <a class="link-hover f-22 f-md-18 navbar-right w-25" href="#">EN</a>
             <div class="dropcontent bg-dark">
-                <a class="link-hover f-22 f-md-18 d-block text-white p-1" href="#">AZ</a>
+                <a class="link-hover f-22 f-md-18 d-block text-white py-1 px-2" href="#">AZ</a>
             </div>
        </div><!--drop-btn-->
        
 
     </div>
 
-    <input id="toggle" type="checkbox" >
+    <input id="toggle" type="checkbox">
 
   <label for="toggle" class="hamburger d-block d-md-none pt-2 me-1">
     <div class="top-bun"></div>

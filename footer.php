@@ -6,7 +6,7 @@
     dummy text ever since the 1500s,</p>
     </div>
 
-    <div class="row px-1 mb-4">
+    <div class="row px-1 mb-5 mt-3">
 
     <div class="owl-carousel-2 owl-carousel owl-theme">
 
@@ -66,7 +66,7 @@
     nav:false,
     dots:false,
     autoplay: true,
-	autoplayTimeout: 3000,
+	autoplayTimeout: 4000,
 	autoplayHoverPause: true,
     responsive:{
         0:{
@@ -90,7 +90,7 @@
     nav:false,
     dots:false,
     autoplay: true,
-	autoplayTimeout: 1500,
+	autoplayTimeout: 5000,
 	autoplayHoverPause: true,
     responsive:{
         0:{
