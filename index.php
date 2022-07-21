@@ -5,8 +5,20 @@ include('header.php');
 <div class="container main-page my-3">
     
     <h3 class="f-md-36 fw-bold my-3">Web sayt</h3>
-    <p class="header-text f-md-16 ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the 
-    industry's standard dummy text ever since the 1500s,</p>
+
+    <!-- <div class="row"> -->
+    <div class="d-flex ">
+
+       <p class="header-text f-md-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+       <div class="see-all ms-auto me-4 pe-1 d-none d-md-block">
+            <a href="see-all.php" class="link-hover position-relative">Hamısına bax
+                <img src="images/arrow-down.svg" class="position-absolute right-icon ps-2">
+            </a>
+        </div>
+
+    </div>
+    <!-- </div> -->
 
     <div class="row">
 
@@ -84,13 +96,13 @@ include('header.php');
 
     </div><!--owl-carousel end-->
 
-        <!-- <div class="d-flex justify-content-center ">
+        <div class="d-flex justify-content-center d-block d-md-none">
             <div class="see-all">
                 <a href="see-all.php" class="link-hover position-relative">Hamısına bax
                     <img src="images/arrow-down.svg" class="position-absolute right-icon ps-2">
                 </a>
             </div>
-        </div> -->
+        </div>
 
 
 

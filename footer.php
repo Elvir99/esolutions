@@ -1,7 +1,7 @@
 
 <div class="container footer position-relative">
-    <div class="row ">
-    <h3 class="f-md-36 fw-bold my-2">Client</h3>
+    <div class="row">
+    <h3 class="f-md-36 fw-bold">Client</h3>
     <p class="header-text f-md-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
     dummy text ever since the 1500s,</p>
     </div>
