@@ -1,7 +1,7 @@
 
 <div class="container footer position-relative">
     <div class="row ">
-    <h3 class="f-md-36 fw-bold my-3">Client</h3>
+    <h3 class="f-md-36 fw-bold my-2">Client</h3>
     <p class="header-text f-md-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
     dummy text ever since the 1500s,</p>
     </div>
@@ -18,13 +18,18 @@
 
         <div class="item">
             <a href="#">
-                <img src="images/frame.svg" alt="">
+                <img src="images/ekvita.svg" alt="">
             </a>
         </div>
 
         <div class="item">
             <a href="#">
-                <img src="images/frame.svg" alt="">
+                <img src="images/cashpay.svg" alt="">
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <img src="images/Azersu_logo.png" alt="">
             </a>
         </div>
 
@@ -86,7 +91,7 @@
 <script>
     $('.owl-carousel-2').owlCarousel({
     loop:true,
-    margin:20,
+    margin:30,
     nav:false,
     dots:false,
     autoplay: true,

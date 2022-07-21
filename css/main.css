@@ -21,12 +21,14 @@ body {
     margin-left: 80px; }
   .header .navbar-right {
     margin-right: 40px; }
-  .header .nav-wrapper .nav-content {
-    margin: 60px 0 50px 0 !important; }
-    .header .nav-wrapper .nav-content a {
-      line-height: 36px; }
-  .header .nav-wrapper .nav-footer {
-    margin: 150px 0 30px 75px !important; }
+  .header .nav {
+    height: 100vh; }
+    .header .nav .nav-wrapper {
+      overflow-y: auto !important; }
+      .header .nav .nav-wrapper .nav-content {
+        margin: 60px 0 50px 0 !important; }
+        .header .nav .nav-wrapper .nav-content a {
+          line-height: 36px; }
 
 .line {
   height: 1px;
@@ -404,13 +406,12 @@ body {
   display: block; }
 .menu .menu-link {
   text-decoration: none;
-  color: #fff;
-  display: flex !important; }
+  color: #fff; }
 .menu .menu-content {
   position: absolute;
   display: none;
   left: 80px;
-  width: 580px; }
+  min-width: 380px; }
 
 .footer {
   top: 100%;

@@ -45,13 +45,13 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
         <div class="menu position-relative">
 
             <a class="link-hover f-md-18 navbar-left d-none d-md-block" style="cursor:pointer;">SHOWCASE</a>
-            <div class="menu-content bg-dark py-3">
+            
+            <div class="menu-content bg-dark p-3">
                 <div class="d-flex justify-content-center">
-                <a href="#" class="menu-link f-10 f-md-18 pe-3">WEB SAYT</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-3">BRANDING</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-3">REKLAM</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-3">SSM</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-3">KATEGORIYA</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-1">WEB SAYT</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-2">BRANDING</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-2">Digital</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-2">Print</a>
                 </div>
             </div>
 
@@ -84,25 +84,28 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
   </label>
 
   <div class="nav">
-    <div class="nav-wrapper">
+    <div class="nav-wrapper w-100">
 
     <a class="link-hover f-22 f-md-18 ms-3" href="index.php"><img src="images/logo svg 2.svg" class="logo img-fluid mt-4 pt-4 ms-2 "></a>
-      <nav class="text-center nav-content">
+      <nav class="text-center nav-content  justify-content-center d-block">
         <a href="#" class="text-white py-3 f-24 f-md-24 fw-bold d-block">Web sayt</a>
         <a href="#" class="text-white py-3 f-24 f-md-24 fw-bold d-block">Branding</a>
         <a href="#" class="text-white py-3 f-24 f-md-24 fw-bold d-block">Branding</a>
         <a href="#" class="text-white py-3 f-24 f-md-24 fw-bold d-block">Branding</a>
-        <a href="#" class="text-white py-3 f-24 f-md-24 fw-bold d-block">Branding</a>
+        
+        
+
       </nav>
-      <div class="nav-footer">
-          <p class="text-white w-75 text-center">Bakı, Cəfər Cabbarlı küçəsi Caspian Plaza 1/8</p>
-          <p class="text-white w-75 text-center"> 
+      <div class="nav-footer w-100 text-center">
+          <p class="text-white w-75 mx-auto">Bakı, Cəfər Cabbarlı küçəsi Caspian Plaza 1/8</p>
+          <p class="text-white "> 
             <a href="tel:05589873929" class="link-hover text-white f-18 f-md-18">
                <img src="images/call.svg" class="me-2">
                 0505115515
             </a>
           </p>
       </div>
+
     </div>
     
 </div>

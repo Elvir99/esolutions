@@ -36,18 +36,20 @@
    .navbar-right{
     margin-right:40px;
    }
-   .nav-wrapper{
 
-    .nav-content{
-        margin:60px 0 50px 0!important;
-        a{
-            line-height: 36px;
+  .nav{
+    height:100vh;
+    .nav-wrapper{
+        overflow-y:auto!important;
+    
+        .nav-content{
+            margin:60px 0 50px 0!important;
+            a{
+                line-height: 36px;
+            }
         }
-    }
-    .nav-footer{
-        margin:150px 0 30px 75px!important;
-    }
-   }
+       }
+  }
 
 
   }////header end//
@@ -170,13 +172,13 @@
     .menu-link{
         text-decoration: none;
         color:#fff;
-        display: flex !important;
+        // min-width:100px;
     }
     .menu-content{
         position:absolute;
         display:none;
         left:80px;
-        width:580px;
+        min-width:380px;
     }
 }
 /////////////////////////////////////FOOTER
