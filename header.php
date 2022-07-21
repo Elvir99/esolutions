@@ -48,8 +48,8 @@ integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52n
             
             <div class="menu-content bg-dark p-3">
                 <div class="d-flex justify-content-center">
-                <a href="#" class="menu-link f-10 f-md-18 px-1">WEB SAYT</a>
-                <a href="#" class="menu-link f-10 f-md-18 px-2">BRANDING</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-1">Web sayt</a>
+                <a href="#" class="menu-link f-10 f-md-18 px-2">Branding</a>
                 <a href="#" class="menu-link f-10 f-md-18 px-2">Digital</a>
                 <a href="#" class="menu-link f-10 f-md-18 px-2">Print</a>
                 </div>

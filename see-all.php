@@ -10,8 +10,8 @@ include('header.php');
 
     <div class="row">
 
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
+        <div class="col-12 col-md-6 col-lg-3 my-1">
+            <div class="card border-0">
                <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
                <div class="card-content py-3">
                  <h5 class="card-title fw-bold">Lorem Ipsum</h5>
@@ -20,8 +20,8 @@ include('header.php');
              </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
+        <div class="col-12 col-md-6 col-lg-3 my-1">
+            <div class="card border-0">
                <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
                <div class="card-content py-3">
                  <h5 class="card-title fw-bold">Lorem Ipsum</h5>
@@ -30,8 +30,8 @@ include('header.php');
              </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
+        <div class="col-12 col-md-6 col-lg-3 my-1">
+            <div class="card border-0">
                <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
                <div class="card-content py-3">
                  <h5 class="card-title fw-bold">Lorem Ipsum</h5>
@@ -40,8 +40,8 @@ include('header.php');
              </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
+        <div class="col-12 col-md-6 col-lg-3 my-1">
+            <div class="card border-0">
                <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
                <div class="card-content py-3">
                  <h5 class="card-title fw-bold">Lorem Ipsum</h5>
@@ -50,8 +50,8 @@ include('header.php');
              </div>
         </div>
 
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
+        <div class="col-12 col-md-6 col-lg-3 my-1">
+            <div class="card border-0">
                <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
                <div class="card-content py-3">
                  <h5 class="card-title fw-bold">Lorem Ipsum</h5>
@@ -59,45 +59,11 @@ include('header.php');
                </div>
              </div>
         </div>
-
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
-               <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
-               <div class="card-content py-3">
-                 <h5 class="card-title fw-bold">Lorem Ipsum</h5>
-                 <p class="card-text">Some quick example text to build .</p>
-               </div>
-             </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-3 my-3">
-            <div class="card border-0" style="width: 100%;heihgt:100%">
-               <a href="photos.php"><img class="card-img-top rounded-0" src="images/img1.svg" alt="Card image cap"></a>
-               <div class="card-content py-3">
-                 <h5 class="card-title fw-bold">Lorem Ipsum</h5>
-                 <p class="card-text">Some quick example text to build .</p>
-               </div>
-             </div>
-        </div>
-
-
-
 
     </div><!--row-end-->
 </div><!--container-end-->
 
 
-
-
-
-
 <?php
 include('footer.php');
 ?>
-
-
-
-
-
-
-

@@ -411,7 +411,7 @@ body {
   position: absolute;
   display: none;
   left: 80px;
-  min-width: 380px; }
+  min-width: 360px; }
 
 .footer {
   top: 100%;
@@ -419,6 +419,9 @@ body {
   .footer .owl-carousel-2 .item img {
     width: 165px;
     height: 50px; }
+
+.owl-stage-outer {
+  margin-bottom: -20px !important; }
 
 .main-page .see-all:hover .right-icon {
   transform: translate(8px, 0); }

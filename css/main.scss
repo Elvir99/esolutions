@@ -68,6 +68,11 @@
   .image{
     border-radius:0!important;
   }
+
+//   .card{
+//     width: 100% !important;
+//     height: 100% !important;
+//   }
 ///////////////// MIX CODE///////////
 .bg-color{
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%);
@@ -164,7 +169,7 @@
         position:absolute;
         display:none;
         left:80px;
-        min-width:380px;
+        min-width:360px;
     }
 }
 /////////////////////////////////////FOOTER
@@ -186,6 +191,9 @@
 ///////////////////////////////////////////////////HEADER ENDS//////////////////////
 
 ////////////////////////MAIN PAGE//////////////////////
+.owl-stage-outer{
+    margin-bottom:-20px!important;
+}
 
 .main-page{
     

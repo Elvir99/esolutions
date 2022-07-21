@@ -70,9 +70,9 @@
     margin:20,
     nav:false,
     dots:false,
-    autoplay: true,
-	autoplayTimeout: 4000,
-	autoplayHoverPause: true,
+    // autoplay: true,
+	// autoplayTimeout: 4000,
+	// autoplayHoverPause: true,
     responsive:{
         0:{
             items:1
