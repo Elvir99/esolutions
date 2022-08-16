@@ -1,7 +1,22 @@
-*{
-    font-family: 'Poppins', sans-serif!important;
+
+
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@font-face {
+    font-family:'Poppins-Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Poppins-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Poppins-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Poppins-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Poppins-Regular.svg') format('svg'); /* Legacy iOS */
+
   }
-  
+  *{
+    font-family:'Poppins-Regular'!important;
+  }
+
   body{
     min-height:100vh;
   }
@@ -77,6 +92,11 @@
 .bg-color{
     background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%);
 }
+.my-25{
+    margin-top:0.75rem!important;
+    margin-bottom:0.75rem!important;
+}
+
 .py-45{
     padding-top:2.5rem!important;
     padding-bottom:2.5rem!important;
@@ -198,7 +218,7 @@
 .main-page{
     
     .see-all{
-
+        // width:100px!important;
         &:hover .right-icon{
             transform:translate(8px,0);
         }
@@ -206,9 +226,9 @@
             transition: all 0.5s;
         }
     }
-    .header-text{
-        width: 50% ;
-    }
+    // .header-text{
+    //     // width: 50% ;
+    // }
     .owl-carousel{
         .item{
             a{

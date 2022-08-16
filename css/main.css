@@ -1,5 +1,13 @@
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Poppins-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Poppins-Regular.woff2") format("woff2"), url("../fonts/Poppins-Regular.woff") format("woff"), url("../fonts/Poppins-Regular.ttf") format("truetype"), url("../fonts/Poppins-Regular.svg") format("svg");
+  /* Legacy iOS */ }
 * {
-  font-family: "Poppins", sans-serif !important; }
+  font-family: "Poppins-Regular" !important; }
 
 body {
   min-height: 100vh; }
@@ -45,6 +53,10 @@ body {
 
 .bg-color {
   background: linear-gradient(180deg, #F4F4F4 0%, rgba(244, 244, 244, 0) 126.02%); }
+
+.my-25 {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important; }
 
 .py-45 {
   padding-top: 2.5rem !important;
@@ -427,8 +439,6 @@ body {
   transform: translate(8px, 0); }
 .main-page .see-all .right-icon {
   transition: all 0.5s; }
-.main-page .header-text {
-  width: 50%; }
 .main-page .owl-carousel .item a {
   text-decoration: none; }
 

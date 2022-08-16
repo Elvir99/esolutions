@@ -7,9 +7,9 @@ include('header.php');
     <h3 class="f-md-36 fw-bold my-3">Web sayt</h3>
 
     <!-- <div class="row"> -->
-    <div class="d-flex ">
+    <div class="d-flex py-2">
 
-       <p class="header-text f-md-16">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+       <p class="header-text f-md-16">Lorem Ipsum is simply dummy text of the printLorem Ipsum is simply du</p>
 
        <div class="see-all ms-auto me-4 pe-1 d-none d-md-block">
             <a href="see-all.php" class="link-hover position-relative">Hamısına bax
